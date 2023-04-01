@@ -1,1 +1,5 @@
 # odin-admin-dashboard
+
+Ealrier on in my programming studies, I learned and practiced the use of Flexbox in order to make organized page layouts. It wasn't until the calulator project where I was first exposed to CSS Grid. That language was particularly helpful in arranging the buttons on the calculator. Now that I've formally learned about Grid, I'll now be using my knowledge to use by creating a mock-up admin dashboard. 
+
+From what I've seen with example dashboards, these sorts of webpages not only feature sections layed out by columns and rows, but even those sections have their own columns and rows for storing additional information. I've had experience in making flex items into flex containers, so I hope to be able to achieve similar results with CSS Grid. By the end of this project, I hope that my ability to make organized webpage layouts will be more refined. 
