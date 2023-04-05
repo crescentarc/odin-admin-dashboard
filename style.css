@@ -19,6 +19,19 @@
     background-color: rgb(131, 131, 216);
     grid-column: 1;
     grid-row: 1 / 20;
+    display: grid;
+    align-content: start;
+    row-gap: 75px;
+}
+
+.sidebar-sub-section-1 {
+    display: grid;
+    row-gap: 10px;
+}
+
+.sidebar-sub-section-2 {
+    display: grid;
+    row-gap: 10px;
 }
 
 .main-content {
