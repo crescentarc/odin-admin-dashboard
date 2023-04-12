@@ -1,12 +1,16 @@
 * {
     padding: 0%;
     margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 .overall-container {
     display: grid;
-    width: 100vw;
-    height: 100vh;
 }
 
 .header {
@@ -86,7 +90,7 @@ ul {
     background-color: rgb(235, 135, 135);
     grid-column: 2 / 5;
     grid-row: 4 / 20;
-    height: 75vh;
+    min-height: 75vh;
     display: grid;
     padding: 25px;
     box-sizing: border-box;
@@ -99,7 +103,6 @@ ul {
     grid-row: 1 / 3;
     grid-column: 1 / 2;
     background-color: aqua;
-    padding: 10px;
     display: grid;
 }
 
@@ -107,17 +110,16 @@ ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    padding-top: 10px;
     gap: 10px;
     grid-row: 2 / 75;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .projects-header {
     grid-row: 1 / 2;
     border-radius: 5px;
-    padding-left: 5px;
-    padding-top: 5px;
+    padding: 5px;
 }
 
 .project {
@@ -155,7 +157,32 @@ ul {
 .announcements {
     grid-row: 1 /2;
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+}
+
+.announcements-header {
+    background-color: yellow;
+    padding: 5px;
+}
+
+.announcements-sub-container {
+    padding: 10px;
     background-color: red;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.maintenance {
+    background-color: darkseagreen;
+}
+
+.community {
+    background-color: goldenrod;
+}
+
+.privacy-policy {
+    background-color: lightpink;
 }
 
 .trending {
