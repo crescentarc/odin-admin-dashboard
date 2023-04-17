@@ -175,14 +175,24 @@ ul {
 
 .maintenance {
     background-color: darkseagreen;
+    display: grid;
+    grid-template-rows: .25fr 1fr;
 }
 
 .community {
     background-color: goldenrod;
+    display: grid;
+    grid-template-rows: .25fr 1fr;
 }
 
 .privacy-policy {
     background-color: lightpink;
+    display: grid;
+    grid-template-rows: .25fr 1fr;
+}
+
+.announcements-post-title {
+    align-self: end;
 }
 
 .trending {
