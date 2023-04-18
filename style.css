@@ -76,14 +76,27 @@ ul {
     box-sizing: border-box;
 }
 
+.page-title-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: start;
+    background-color: aquamarine;
+}
+
 .sidebar-sub-section-1 {
     display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 10px;
+    background-color: gray;
 }
 
 .sidebar-sub-section-2 {
     display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
     row-gap: 10px;
+    background-color: bisque;
 }
 
 .main-content {
