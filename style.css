@@ -238,37 +238,44 @@ body {
 }
 
 .announcements-header {
-    background-color: yellow;
     padding: 5px;
+    font-weight: bold;
 }
 
 .announcements-sub-container {
     padding: 10px;
-    background-color: red;
+    background-color: white;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 5px;
 }
 
 .maintenance {
-    background-color: darkseagreen;
     display: grid;
     grid-template-rows: .25fr 1fr;
+    border-bottom: solid thin grey;
+    row-gap: 5px;
 }
 
 .community {
-    background-color: goldenrod;
     display: grid;
     grid-template-rows: .25fr 1fr;
+    border-bottom: solid thin grey;
+    padding-top: 5px;
+    row-gap: 5px;
 }
 
 .privacy-policy {
-    background-color: lightpink;
     display: grid;
     grid-template-rows: .25fr 1fr;
+    border-bottom: solid thin grey;
+    padding-top: 5px;
+    row-gap: 5px;
 }
 
 .announcements-post-title {
     align-self: end;
+    font-weight: bold;
 }
 
 .trending {
