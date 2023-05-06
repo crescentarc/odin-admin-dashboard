@@ -18,12 +18,11 @@ body {
 }
 
 .header {
-    background-color: rgb(86, 224, 224);
+    background-color: white;
     grid-column: 2 / 5;
     grid-row: 1 / 4;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    height: 25vh;
     box-sizing: border-box;
 }
 
@@ -67,12 +66,14 @@ body {
 
 .user {
     grid-area: user;
+    font-weight: bold;
 }
 
 .header-row-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 25px;
+    column-gap: 10px;
 }
 
 .greeting-section {
@@ -80,6 +81,10 @@ body {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 15fr;
     column-gap: 25px;
+}
+
+.greeting , .username {
+    font-weight: bold;
 }
 
 .post-options {
@@ -90,7 +95,7 @@ body {
 }
 
 .post-option {
-    background-color: white;
+    background-color: rgb(72, 197, 255);
     display: flex;
     border: none;
     border-radius: 20px;
@@ -99,6 +104,8 @@ body {
     align-items: center;
     height: 40px;
     width: 100px;
+    color: white;
+    font-weight: bold;
 }
 
 .post-option.new {
@@ -120,7 +127,7 @@ body {
 }
 
 .sidebar {
-    background-color: rgb(131, 131, 216);
+    background-color: rgb(146, 224, 248);
     grid-column: 1;
     grid-row: 1 / 20;
     display: grid;
@@ -128,6 +135,15 @@ body {
     row-gap: 75px;
     padding: 25px;
     box-sizing: border-box;
+    min-height: 100vh;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.sidebar-icon {
+    height: 30px;
+    justify-self: center;
 }
 
 .page-title-section {
@@ -135,7 +151,7 @@ body {
     grid-template-columns: 1fr 2fr;
     justify-items: start;
     align-items: center;
-    column-gap: 5px;
+
 }
 
 .sidebar-sub-section-1 {
@@ -157,7 +173,7 @@ body {
 }
 
 .main-content {
-    background-color: rgb(235, 135, 135);
+    background-color: rgb(192, 187, 187);
     grid-column: 2 / 5;
     grid-row: 4 / 20;
     min-height: 75vh;
@@ -167,6 +183,7 @@ body {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr 1.75fr;
     gap: 25px;
+    box-shadow: 0px 0px 10px gray;
 }
 
 .projects {
@@ -199,7 +216,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: .25fr 1fr .50fr;
-    box-shadow: inset 5px 0 0 0 rgb(231, 213, 111);
+    box-shadow: inset 5px 0 0 0 black;
     row-gap: 5px;
 }
 
